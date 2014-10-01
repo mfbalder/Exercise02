@@ -49,7 +49,9 @@ def cube(num1):
     return num1**3
 
 def power(num1, num2):
-    pass
+    """Raises the first integer to the power of the second integer and returns the value"""
+    return num1**num2
 
 def mod(num1, num2):
-    pass
+    """Returns the remainder when the first integer is divided by the second integer."""
+    return num1 % num2
