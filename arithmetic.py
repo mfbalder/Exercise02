@@ -37,13 +37,16 @@ def multiply(num1, num2):
     return num1 * num2
 
 def divide(num1, num2):
-    pass
+    """Divides the first input by the second, returning a floating point"""
+    return float(num1) / num2
 
 def square(num1):
-    pass
+    """Returns the square of the input"""
+    return num1 * num1
 
 def cube(num1):
-    pass
+    """ Returns the cube of the input"""
+    return num1**3
 
 def power(num1, num2):
     pass
